@@ -164,7 +164,7 @@
                     opacity: 1,
                     delay: 2.5,
                     onComplete: function() {
-                        s("#app").fullpage.setAllowScrolling(!0)
+                        //s("#app").fullpage.setAllowScrolling(!0)
                     }
                 }), s(".scrolltosec").bind("click", function(t) {
                     var e = s(t.currentTarget).data("sec");
@@ -325,7 +325,7 @@
                     afterLoad: function(t, i) {
                         "init" != e.status && e.screenAnimateIn(i)
                     }
-                }), s("#app").fullpage.setAllowScrolling(!1)
+                })//, s("#app").fullpage.setAllowScrolling(!1)
             }
         }]), t
     }();

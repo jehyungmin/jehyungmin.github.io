@@ -997,7 +997,11 @@ ul.social_icons li  a i{
   outline: none;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+/*.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+  color: #BD5D38;
+}*/
+
+.nav-menu a:hover, .nav-menu li:hover > a{
   color: #BD5D38;
 }
 
@@ -1209,15 +1213,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .service-icon {
   float: left;
   background: #BD5D38;
-  padding: 16px;
+  /*padding: 7px;*/
   border-radius: 50%;
   transition: 0.5s;
   border: 1px solid #BD5D38;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 6px;
 }
 
 #services .service-icon i {
   color: #fff;
-  font-size: 24px;
+  /*font-size: 24px;*/
 }
 
 #services .service-item:hover .service-icon {
