@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>HyungMin Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="../css/pagestyle.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link href="../assets/images/apple-touch-icon-120x120.png" rel="apple-touch-icon">
+    <link href="../assets/images/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="../assets/images/apple-touch-icon-167x167.png" rel="apple-touch-icon" sizes="167x167">
+    <link href="../assets/images/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="../assets/images/android-chrome-512x512.png" rel="icon" sizes="512x512">
+    <link href="../assets/images/android-high-res.png" rel="icon" sizes="192x192">
+    <link href="../assets/images/android-regular.png" rel="icon" sizes="128x128">
+    <link rel="mask-icon" href="../assets/images/safari-pinned-tab.svg" color="#000000">
+    <meta name="twitter:image" content="../assets/images/tt-cover.jpg"> -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-113132002-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-113132002-1');
+    </script>
+  </head>
+  <body class="page-view">
+    <div id="preloader">
+      <div class="plc-vc-cover left"></div>
+      <div class="plc-vc-cover top"></div>
+      <div class="plc-vc-cover bottom"></div>
+      <div class="plc-vc-cover right"></div>
+      <h1 class="plc-number">0</h1>
+      <div class="pl-progress-wrap">
+        <div class="pl-progress"></div>
+      </div>
+    </div>
+    <div id="app">
+      <section class="full-sec project-title init-sec">
+        <div style="background-image:url(../assets/images/ten-and-two/firekakaomain.png)" class="pt-bg brl"></div>
+        <div class="container content">
+          <div data-parallax="0.2" class="col6">
+            <h1 class="slideup">Fire</h1>
+            <h1 class="slideup">KAKAO Talk</h1>
+            <div class="sm-space"></div>
+            <h5 class="slideup">What should we talk about?</h5>
+          </div>
+        </div>
+        <div class="container scroll-wrapper">
+          <div class="scroll-btn slideup">
+            <p>Scroll</p>
+            <div class="scb-lines">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="body-sec">
+        <div class="container pd-sec">
+          <div class="col4 project-side-info clearfix">
+            <p>OS: Windows 10</p>
+            <p>Language: HTML5, Css3, javascript, Firebase</p>
+            <p>Tool: VisualStudio code</p>
+          </div>
+          <div class="col8">
+            <p class="lg">
+              과제명 : Fire-Kakao<br>
+              과제기간 : 2018.07.31 ~ 2018.08.16<br>
+              참여인원 : 1명<br>
+              담당영역 : 전부분<br>
+            </p>
+            <div class="xmd-space"></div>
+            <p class="lg">
+              로컬 어플리케이션으로 채팅 프로그램을 만들어 보았지만 웹으로 실시간 통신이 되는 서비스는 만들어 보지 못하여 개발하게 되었습니다.
+              형태는 대표적인 채팅어플인 Kakao talk을 본따서 만들었습니다.
+            </p>
+          </div>
+        </div>
+        <div class="lg-space"></div>
+        
+        <div class="container pd-sec"><img src="../assets/images/ten-and-two/firekakaomain2.png" alt="Ten and Two branding">
+          <div class="xmd-space"></div>
+        </div>
+        <div class="container pd-sec">
+          <div class="col8">
+            <h3>01. 로그인 화면</h3>
+            <div class="sm-space"></div>
+            <p class="lg">
+              * 첫 로그인시 본인의 이메일과 설정하고 싶은 비밀번호를 사용하면 이메일을 통해 자동으로 가입이 되고 로그인 하게 됩니다.<br>
+              이후에는 어플을 켤때면 별도의 기입 없이 firebase 에 저장된 아이디로 자동으로 로그인 되게 됩니다.<br>
+              * 로그아웃시에 아이디는 같고 비밀번호는 다르게 입력하면 firebase의 db에 저장된 값과 비교하여 불일치하면 로그인에 실패하도록 했습니다.<br>
+            </p>
+          </div>
+        </div>
+        <div class="xmd-space"></div>
+        <div class="container pd-sec">
+          <div class="col6"><img src="../assets/images/ten-and-two/firekakao.png" alt="Ten and Two branding"></div>
+          <div class="col6"><img src="../assets/images/ten-and-two/firekakao2.png" alt="Ten and Two branding"></div>
+        </div>
+        <div class="lg-space"></div>
+        <div class="container pd-sec">
+          <div class="col8">
+            <h3>02. 채팅화면</h3>
+            <div class="sm-space"></div>
+            <p class="lg">
+              * 채팅방에 여러사람이 입장하면 인원수 체크가 되어 숫자가 올라갑니다.<br>
+              * 수정을 눌러 나의 프로필을 수정할 수 있습니다.<br>
+              * 전송을 클릭 또는 enter를 누르면 메시지가 전송됩니다.<br>
+              * 메세지는 자동으로 firebase에 저장 됩니다.<br>
+            </p>
+          </div>
+        </div>
+        <div class="xmd-space"></div>
+        <div class="container pd-sec"><img src="../assets/images/ten-and-two/firekakaochat.png" alt="Ten and Two branding"></div>
+        <div class="xmd-space"></div>
+        <div class="container pd-sec">
+          <div class="col8">
+            <h3>03. Realtime Database</h3>
+            <div class="sm-space"></div>
+            <p class="lg">
+              firebase에서 제공하는 database에 아이디, 비밀번호, 채팅의 내용까지 저장되는것을 확인할수 있습니다.
+            </p>
+          </div>
+        </div>
+        <div class="xmd-space"></div>
+        <div class="container pd-sec"><img src="../assets/images/ten-and-two/firekakao4.png" alt="Ten and Two branding"></div>
+        <div class="lg-space"></div>
+        <div class="xmd-space"></div>
+        <div class="container pd-sec">
+          <div class="col8"><a href="https://github.com/jehyungmin/fake-kakao-tutorial" target="_blank" class="view-link">
+              <h4>visit github
+                <div class="vl-line"></div>
+              </h4></a></div>
+        </div>
+      </section>
+      <section class="nt-sec mwa-sec">
+        <div class="container">
+          <h2>More project</h2>
+        </div>
+        <div class="md-space"></div>
+        <div class="container">
+          <div class="col6"><a href="karibi.html" class="work-tile">
+              <div class="work-tile-image">
+                <div class="wti-para">
+                  <div data-parallax="0.2" class="wti-inner brl karibi"></div>
+                </div>
+              </div>
+              <div class="work-tile-content">
+                <h3>React-Native</h3>
+                <h5>WeatherApp</h5>
+              </div></a></div>
+          <div class="col6"><a href="oasis.html" class="work-tile">
+              <div class="work-tile-image">
+                <div class="wti-para">
+                  <div data-parallax="0.2" class="wti-inner brl oasis"></div>
+                </div>
+              </div>
+              <div class="work-tile-content">
+                <h3>Python-HTML</h3>
+                <h5>Fack Facebook</h5>
+              </div></a></div>
+        </div>
+      </section>
+      <section class="action-sec">
+        <div class="container">
+          <h4>
+            all project <a href="../works.html" class="inline-link">here</a>.
+          </h4>
+        </div>
+      </section>
+    </div>
+    <script src="../js/page.js"></script>
+  </body>
+</html>
