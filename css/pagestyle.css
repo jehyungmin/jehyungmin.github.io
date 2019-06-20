@@ -2307,6 +2307,13 @@ a.view-link:hover h4 .vl-line:before {
     padding: 20px 0;
   }
 }
+
+@media screen and ( max-width: 1023px){
+  .another-project {
+    display: none;
+  }
+}
+
 .work-tile-content h3 {
   font-family: 'Didonesque', serif;
 }
