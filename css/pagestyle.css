@@ -2313,7 +2313,11 @@ a.view-link:hover h4 .vl-line:before {
     display: none;
   }
 }
-
+@media screen and ( max-width: 1023px){
+  h4 .skill-hide .container .service-item {
+    display: none;
+  }
+}
 .work-tile-content h3 {
   font-family: 'Didonesque', serif;
 }
