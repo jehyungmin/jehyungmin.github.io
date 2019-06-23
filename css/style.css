@@ -465,6 +465,7 @@ h4 {
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
+  z-index: 999;
 }
 
 @media (max-width: 768px) {
@@ -1253,21 +1254,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
-/*@media screen and ( max-width: 1023px){
-  .service-title {
-    display: none;
-  }
-}*/
-@media screen and ( max-width: 1023px) {
+/*@media screen and ( max-width: 1023px) {
   .service-item {
     width:50%;
     
   }
-}
-
+}*/
+/*
 @media screen and ( max-width: 1023px) {
   .service-title {
-    /*margin-left: 0px;*/
     margin-top: 80px;
   }
 }
@@ -1278,7 +1273,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: -80px;
   }
 }
-
+*/
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
