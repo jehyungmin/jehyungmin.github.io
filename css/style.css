@@ -1131,9 +1131,9 @@ ul.social_icons li  a i{
 }
 
 /* Mobile Nav body classes */
-body.mobile-nav-active {
+/*body.mobile-nav-active {
   overflow: hidden;
-}
+}*/
 
 body.mobile-nav-active #mobile-nav {
   left: 0;
